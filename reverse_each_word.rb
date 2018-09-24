@@ -3,4 +3,6 @@ def reverse_each_word(string)
   string = string.split(' ')
   string.each do |word|
     rev_str << word.reverse
+  end 
+  rev_str
 end 
